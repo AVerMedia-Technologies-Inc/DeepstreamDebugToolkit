@@ -26,12 +26,12 @@ This convenient debug tool is created by [**AverMedia**](https://www.avermedia.c
 
 Clone the tool repository.
 ```
-git clone 
+git clone https://github.com/JasonWuAverMedia/AVT_DS_KIT.git
 ```
 
 Build the docker image for the toolkit on [**AverMeida** Box PC](https://www.avermedia.com/professional/products?category=Box-PC).
 ```
-cd avt_ds_toolkit
+cd AVT_DS_KIT
 docker build -t AVT_DS_KIT .
 ```
 
