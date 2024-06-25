@@ -1,4 +1,4 @@
-# DeepStream Debug Toolkit
+# AVerAI DeepStream Debug Toolkit
 
 ## Table of contents
 
