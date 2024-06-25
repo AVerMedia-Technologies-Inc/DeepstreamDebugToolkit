@@ -15,11 +15,11 @@ DeepStream Debug Toolkit can help developers to send a single image file to the 
 
 The tool is suitable for developers who want to make sure the numerical correctness as expected values for a AI model running on deepstream pipeline before deploy the model into a large application.
 
-This convenient debug tool is created by [**AverMedia**](https://www.avermedia.com/professional/).
+This convenient debug tool is created by [**AVerMedia**](https://www.avermedia.com/professional/).
 
 
 ## Requirement
-  - [**AverMeida** Box PC](https://www.avermedia.com/professional/products?category=Box-PC)
+  - [**AVerMedia** Box PC](https://www.avermedia.com/professional/products?category=Box-PC)
   - [Docker image : **DeepStream 6.3**](https://catalog.ngc.nvidia.com/orgs/nvidia/containers/deepstream)
 
 ## Quick Start
@@ -29,7 +29,7 @@ Clone the tool repository.
 git clone https://github.com/JasonWuAverMedia/AVT_DS_KIT.git
 ```
 
-Build the docker image for the toolkit on [**AverMeida** Box PC](https://www.avermedia.com/professional/products?category=Box-PC).
+Build the docker image for the toolkit on [**AVerMedia** Box PC](https://www.avermedia.com/professional/products?category=Box-PC).
 ```
 cd AVT_DS_KIT
 docker build -t AVT_DS_KIT .
@@ -47,7 +47,7 @@ python3 demo.py
 ```
 
 ## Notification
-- The tool can only run on [**AverMeida** Box PC](https://www.avermedia.com/professional/products?category=Box-PC).
+- The tool can only run on [**AVerMedia** Box PC](https://www.avermedia.com/professional/products?category=Box-PC).
 - The tool can not get correct tensor arrays without mapping **/usr/sbin** to docker container.
 
 
