@@ -26,19 +26,19 @@ This convenient debug tool is created by [**AVerMedia**](https://www.avermedia.c
 
 Clone the tool repository.
 ```
-git clone https://github.com/JasonWuAverMedia/AVT_DS_KIT.git
+git clone https://github.com/AVerMedia-Technologies-Inc/DeepstreamDebugToolkit.git
 ```
 
 Build the docker image for the toolkit on [**AVerMedia** Box PC](https://www.avermedia.com/professional/products?category=Box-PC).
 ```
-cd AVT_DS_KIT
-docker build -t AVT_DS_KIT .
+cd DeepstreamDebugToolkit
+docker build -t DeepstreamDebugToolkit .
 ```
 
-Start up a container for AVT_DS_KIT
+Start up a container for DeepstreamDebugToolkit
 
 ```
-docker run -it --runtime=nvidia --ipc=host --privileged -v /usr/sbin:/usr/sbin AVT_DS_KIT
+docker run -it --runtime=nvidia --ipc=host --privileged -v /usr/sbin:/usr/sbin DeepstreamDebugToolkit
 ```
 
 Run the [demo.py](./example/demo.py).
