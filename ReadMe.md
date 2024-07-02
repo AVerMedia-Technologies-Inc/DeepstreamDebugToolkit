@@ -32,13 +32,13 @@ git clone https://github.com/AVerMedia-Technologies-Inc/DeepstreamDebugToolkit.g
 Build the docker image for the toolkit on [**AVerMedia** Box PC](https://www.avermedia.com/professional/products?category=Box-PC).
 ```
 cd DeepstreamDebugToolkit
-docker build -t DeepstreamDebugToolkit .
+docker build -t ds_kit .
 ```
 
 Start up a container for DeepstreamDebugToolkit
 
 ```
-docker run -it --runtime=nvidia --ipc=host --privileged -v /usr/sbin:/usr/sbin DeepstreamDebugToolkit
+docker run -it --runtime=nvidia --ipc=host --privileged -v /usr/sbin:/usr/sbin ds_kit
 ```
 
 Run the [demo.py](./example/demo.py).
